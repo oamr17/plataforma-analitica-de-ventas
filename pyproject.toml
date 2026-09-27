@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sales-analytics-platform"
+version = "0.1.0"
+description = "Pipeline ETL de ventas con PostgreSQL y dashboard Streamlit."
+requires-python = ">=3.13,<3.14"
+dependencies = ["psycopg[binary]==3.3.5", "streamlit==1.64.0"]
+
+[project.optional-dependencies]
+dev = [
+    "pip==26.2.1",
+    "pip-tools==7.6.1",
+    "pytest==9.1.1",
+    "ruff==0.16.8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.data-files]
+"share/sales_analytics" = ["sql/analytics.sql"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--import-mode=importlib -ra"
+
+[tool.ruff]
+target-version = "py313"
+line-length = 88
+extend-exclude = [".venv*", ".verification", ".local", "build"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
