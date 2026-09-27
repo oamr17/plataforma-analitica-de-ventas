@@ -1,4 +1,4 @@
-# Sales Analytics Platform
+# Plataforma Analitica de Ventas
 
 Plataforma local para convertir archivos de ventas de un comercio de electrónica en indicadores reproducibles. Conserva el origen, distingue rechazos de advertencias y permite consultar una publicación consistente desde Streamlit, incluso mientras otro proceso publica datos.
 
