@@ -281,7 +281,7 @@ def quality(bundle: dict) -> None:
 
 
 def main() -> None:
-    st.set_page_config(page_title="Sales Analytics", page_icon=None, layout="wide")
+    st.set_page_config(page_title="Analítica de ventas", page_icon=None, layout="wide")
     st.html("""<style>
         .stMainBlockContainer {max-width: 1260px; padding-top: 2.5rem;}
         h1 {letter-spacing: -.025em;} h2 {margin-top: 1rem;}
@@ -290,7 +290,7 @@ def main() -> None:
         [data-testid="stSidebar"] {background: #f4f7f7;}
         ::selection {background: #bde7df; color: #173b38;}
         </style>""")
-    st.sidebar.title("Sales Analytics")
+    st.sidebar.title("Analítica de ventas")
     page = st.sidebar.radio("Análisis", PAGES, label_visibility="collapsed")
     selected = {key: st.session_state.get(key) or None for key in FILTER_LABELS}
     try:

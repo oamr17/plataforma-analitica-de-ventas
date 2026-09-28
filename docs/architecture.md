@@ -1,4 +1,4 @@
-# Arquitectura — Sales Analytics Platform
+# Arquitectura — Plataforma Analítica de Ventas
 
 **Estado: diseño documental aprobado. No autoriza implementación.**
 

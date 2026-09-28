@@ -1,4 +1,4 @@
-# Perfil del dataset — Sales Analytics Platform
+# Perfil del dataset — Plataforma Analítica de Ventas
 
 Estado: análisis de los archivos locales; las políticas propuestas requieren aprobación.
 Fecha de revisión: 2026-09-17.

@@ -1,4 +1,4 @@
-# Plataforma Analitica de Ventas
+# Plataforma Analítica de Ventas
 
 Plataforma local para convertir archivos de ventas de un comercio de electrónica en indicadores reproducibles. Conserva el origen, distingue rechazos de advertencias y permite consultar una publicación consistente desde Streamlit, incluso mientras otro proceso publica datos.
 
@@ -54,7 +54,7 @@ Snapshot de referencia, sin convertir sus cifras en restricciones de futuros lot
 ## Estructura
 
 ```text
-sales-analytics-platform/
+plataforma-analitica-de-ventas/
 ├── AGENTS.md
 ├── README.md
 ├── pyproject.toml                 # única declaración editable de dependencias

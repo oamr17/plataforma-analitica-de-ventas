@@ -158,6 +158,7 @@ def test_failed_refresh_keeps_old_labels(app, monkeypatch):
 
 
 def test_spanish_controls_and_dates_preserve_timestamp(app, bundle):
+    assert app.sidebar.title[0].value == "Analítica de ventas"
     assert all(w.proto.placeholder == "Seleccionar opciones" for w in app.multiselect)
     assert all(w.proto.format == "DD/MM/YYYY" for w in app.date_input)
     assert any("25/09/2026 00:00:00 UTC" in v.value for v in app.caption)

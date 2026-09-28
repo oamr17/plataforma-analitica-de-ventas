@@ -1,4 +1,4 @@
-# Modelo de datos — Sales Analytics Platform
+# Modelo de datos — Plataforma Analítica de Ventas
 
 **Estado: diseño documental aprobado; implementación no autorizada.** D1–D6 y el contrato de lectura fueron aprobados por el usuario.
 Base: [perfil comprobado](data_profile.md), [diccionario](data_dictionary.md) y [reglas aprobadas](business_rules.md). Los dos primeros se conservan como evidencia de la revisión inicial: sus menciones de aprobación pendiente quedan resueltas por las decisiones vigentes de business_rules.md.

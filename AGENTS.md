@@ -1,4 +1,4 @@
-# AGENTS.md — Sales Analytics Platform
+# AGENTS.md — Plataforma Analítica de Ventas
 
 ## 1. Objetivo del proyecto
 

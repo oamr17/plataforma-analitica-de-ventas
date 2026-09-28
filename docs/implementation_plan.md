@@ -1,4 +1,4 @@
-# Plan de implementación incremental — Sales Analytics Platform
+# Plan de implementación incremental — Plataforma Analítica de Ventas
 
 **Estado: E1–E9 implementadas y verificadas dentro del alcance local autorizado.** El [README](../README.md) reúne la operación actual y el [portafolio](portfolio.md) registra la evidencia final. Las listas de aceptación que siguen conservan el plan aprobado; los resultados se identifican expresamente.
 

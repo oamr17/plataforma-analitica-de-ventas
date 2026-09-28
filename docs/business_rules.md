@@ -1,4 +1,4 @@
-# Reglas de negocio y calidad — Sales Analytics Platform
+# Reglas de negocio y calidad — Plataforma Analítica de Ventas
 
 **Estado: diseño documental aprobado; implementación no autorizada.** D1–D6, alcance del MVP y contrato de lectura aprobados por el usuario.
 Evidencia: [data_profile.md](data_profile.md). Campos de origen: [data_dictionary.md](data_dictionary.md). Estructura: [data_model.md](data_model.md). Operación y lectura: [architecture.md](architecture.md).

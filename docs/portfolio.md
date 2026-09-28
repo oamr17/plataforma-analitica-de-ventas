@@ -1,4 +1,4 @@
-# Sales Analytics Platform — portafolio técnico
+# Plataforma Analítica de Ventas — portafolio técnico
 
 ## Contexto y problema
 

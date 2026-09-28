@@ -1,4 +1,4 @@
-# Diccionario de datos — Sales Analytics Platform
+# Diccionario de datos — Plataforma Analítica de Ventas
 
 Estado: significado del origen verificado; tipos de destino y transformaciones propuestos.
 Fuente principal: [Data_Dictionary.csv](../Data/Data_Dictionary.csv), leído antes de interpretar las columnas. Perfil de referencia: [data_profile.md](data_profile.md).
